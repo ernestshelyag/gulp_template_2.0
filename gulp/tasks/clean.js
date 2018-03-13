@@ -9,7 +9,3 @@ module.exports = function () {
     return $.del($.path.public + '**');
   });
 };
-//
-// del(['tmp/*.js', '!tmp/unicorn.js']).then(paths => {
-//   console.log('Deleted files and folders:\n', paths.join('\n'));
-// });

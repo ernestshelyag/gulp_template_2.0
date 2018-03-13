@@ -31,7 +31,8 @@ global.$ = {
     pug: 'front/source/pug/',
     app: 'front/app/',
     appAll: 'front/app/**/*.*',
-    public: 'back/public/'
+    public: 'back/public/',
+    back: 'back/'
   }
 };
 
@@ -60,5 +61,8 @@ $.gulp.task('build', $.gulp.series(
     'css+js',
     'copyFontsToPublic',
     'imgMin'
+  ),
+  $.gulp.series(
+    'cleanHtml'
   )
 ));

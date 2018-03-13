@@ -4,12 +4,7 @@
 * Install libs `bower i`
 * Launch `gulp` to run watchers, server and compilers
 * Launch `gulp build` build for production (public)
-
-
-    npm i
-    bower i
-    gulp
-    gulp build
+* Launch `nodemon server` to start server
 
 #### I assume you have global pre-installed
 
