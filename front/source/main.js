@@ -1,1 +1,1 @@
-console.log('aass');
+console.log('test main.js');
